@@ -1,0 +1,25 @@
+[project]
+name = "flight-mcp"
+version = "0.1.0"
+description = "MCP-based flight search and booking demonstration system."
+readme = "README.md"
+authors = [
+    { email = "baratharjunb@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=2.0.0",
+    "pydantic>=2.13.4",
+]
+
+[project.scripts]
+flight-mcp = "flight_mcp.__main__:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
