@@ -30,7 +30,7 @@ SQLite Database (Data Store)
 - **Framework:** Official MCP Python SDK (`mcp`)
 - **Database:** SQLite (local file)
 - **Client:** Claude Desktop
---------------------------------------------------------------
+---------------------------------------------------------------
 ## Six Available Tools
 The server exposes exactly six robust MCP tools to the AI:
 
